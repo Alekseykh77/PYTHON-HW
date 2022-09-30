@@ -4,7 +4,7 @@
 # [2, 3, 4, 5, 6] => [12, 15, 16];
 # [2, 3, 5, 6] => [12, 15]
 
-n = int (input ('Введите число: '))
+n = int (input ("Введите число: "))
 import random
 rand_list=[]
 for i in range(n):
