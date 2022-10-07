@@ -29,11 +29,11 @@ def create_str(sp):
             if i != len(lst) - 1 and lst[i] != 0 and i != len(lst) - 2:
                 wr += f'{lst[i]}x^{len(lst)-i-1}'
                 if lst[i+1] != 0:
-                    wr += ' + '
+                    wr += ' + ' 
             elif i == len(lst) - 2 and lst[i] != 0:
                 wr += f'{lst[i]}x'
                 if lst[i+1] != 0:
-                    wr += ' + '
+                    wr += ' + ' 
             elif i == len(lst) - 1 and lst[i] != 0:
                 wr += f'{lst[i]} = 0'
             elif i == len(lst) - 1 and lst[i] == 0:
