@@ -12,7 +12,6 @@ while i <= num:
     else:
         i += 1
         if lst.count(i) > 1: 
-            lst.remove(i) 
-           
+            lst.remove(i)         
 print(f"Простые множители числа {old}, приведены в списке: {lst}")
 

@@ -39,7 +39,6 @@ def create_str(sp):
             elif i == len(lst) - 1 and lst[i] == 0:
                 wr += ' = 0'
     return wr
-
 k = int(input("Введите натуральную степень k = "))
 koef = create_mn(k)
 write_file(create_str(koef))
